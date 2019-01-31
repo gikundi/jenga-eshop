@@ -1,0 +1,2 @@
+# jenga-eshop
+Wordpress shop
