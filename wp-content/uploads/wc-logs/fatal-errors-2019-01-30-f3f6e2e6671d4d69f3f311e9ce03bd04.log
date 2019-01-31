@@ -1,0 +1,55 @@
+2019-01-30T06:31:38+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 263
+
+2019-01-30T06:37:39+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 263
+
+2019-01-30T06:39:06+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 262
+
+2019-01-30T06:41:28+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 222
+
+2019-01-30T06:42:50+00:00 CRITICAL Uncaught Error: Call to undefined function tml_add_form_field() in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php:202
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(51): Jenga_Payment_Gateway->init_form_fields()
+#1 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(108): Jenga_Payment_Gateway->__construct()
+#2 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#3 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#4 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-woocommerce.php(690): WC_Payment_Gateways::instance()
+#5 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerc in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 202
+
+2019-01-30T06:44:14+00:00 CRITICAL Uncaught Error: Call to undefined function tml_get_request_value() in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php:205
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(51): Jenga_Payment_Gateway->init_form_fields()
+#1 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(108): Jenga_Payment_Gateway->__construct()
+#2 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#3 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#4 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-woocommerce.php(690): WC_Payment_Gateways::instance()
+#5 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocomm in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 205
+
+2019-01-30T06:49:19+00:00 CRITICAL Uncaught Error: Call to undefined function tml_add_form_field() in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php:213
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(51): Jenga_Payment_Gateway->init_form_fields()
+#1 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(108): Jenga_Payment_Gateway->__construct()
+#2 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#3 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#4 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\includes\class-woocommerce.php(690): WC_Payment_Gateways::instance()
+#5 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerc in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 213
+
+2019-01-30T08:18:01+00:00 CRITICAL Uncaught Exception: There is an issue connecting to the payment gateway. Sorry for the inconvenience. in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php:314
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(354): Jenga_Payment_Gateway->tokenInitializer()
+#1 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(339): Jenga_Payment_Gateway->woompesa_generate_iframe(25)
+#2 C:\xampp\htdocs\dashboard\eshop\wp-includes\class-wp-hook.php(286): Jenga_Payment_Gateway->receipt_page(25)
+#3 C:\xampp\htdocs\dashboard\eshop\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\dashboard\eshop\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\templates\checkout\order-rec in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 314
+
+2019-01-30T08:18:28+00:00 CRITICAL Uncaught Exception: There is an issue connecting to the payment gateway. Sorry for the inconvenience. in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php:314
+Stack trace:
+#0 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(354): Jenga_Payment_Gateway->tokenInitializer()
+#1 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php(339): Jenga_Payment_Gateway->woompesa_generate_iframe(25)
+#2 C:\xampp\htdocs\dashboard\eshop\wp-includes\class-wp-hook.php(286): Jenga_Payment_Gateway->receipt_page(25)
+#3 C:\xampp\htdocs\dashboard\eshop\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\dashboard\eshop\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\woocommerce\templates\checkout\order-rec in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 314
+
+2019-01-30T08:22:32+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\dashboard\eshop\wp-content\plugins\jenga-payment-gateway-woocommerce-plugin\jenga-payment-gateway-woocommerce.php on line 286
+
